@@ -3,21 +3,85 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Jimin Lee — Apps</title>
+<title>메트로놈 녹음기 · Metronome &amp; Recorder</title>
+<meta name="description" content="메트로놈을 들으며 바로 녹음하는 간단한 연습 앱. Metronome and recorder for practice.">
 <style>
-  :root { --bg:#fff; --ink:#111; --muted:#666; --accent:#4f46e5; }
-  @media (prefers-color-scheme: dark) { :root { --bg:#000; --ink:#f2f2f2; --muted:#a8a8a8; --accent:#a5b4fc; } }
-  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.65 -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", sans-serif; }
-  main { max-width:760px; margin:0 auto; padding:32px 16px 64px; } a { color:var(--accent); } .muted { color:var(--muted); }
+  :root { --bg:#fff; --ink:#111; --muted:#666; --line:#e3e3e3; --accent:#4f46e5;
+    --ring:linear-gradient(45deg, #818cf8 0%, #4f46e5 50%, #312e81 100%); }
+  @media (prefers-color-scheme: dark) { :root { --bg:#000; --ink:#f2f2f2; --muted:#a8a8a8; --line:#333; --accent:#a5b4fc; } }
+  body { margin:0; background:var(--bg); color:var(--ink); font:16px/1.65 -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif; }
+  main { max-width:760px; margin:0 auto; padding:32px 16px 64px; }
+  header { display:flex; align-items:center; gap:16px; margin-bottom:8px; }
+  .icon { width:72px; height:72px; border-radius:16px; background:var(--ring); flex:none; }
+  h1 { font-size:26px; margin:0; } h2 { font-size:18px; margin:30px 0 8px; } .muted { color:var(--muted); font-size:14px; }
+  a { color:var(--accent); } nav a { margin-right:12px; }
+  dt { font-weight:600; margin-top:14px; } dd { margin:4px 0 0; color:var(--ink); }
+  hr { border:0; border-top:1px solid var(--line); margin:40px 0; }
 </style>
 </head>
 <body>
 <main>
-<h1>Jimin Lee — Apps</h1>
+<nav class="muted"><a href="#ko">한국어</a><a href="#en">English</a><a href="privacy.html">개인정보 처리방침 · Privacy</a></nav>
+
+<section id="ko">
+<header><div class="icon" aria-hidden="true"></div><div><h1>메트로놈 녹음기</h1><div class="muted">메트로놈을 들으며 바로 녹음하는 연습 앱 (iPhone)</div></div></header>
+
+<h2>할 수 있는 것</h2>
 <ul>
-  <li><a href="metronome/">Metronome &amp; Recorder (메트로놈 녹음기)</a> <span class="muted">(iPhone)</span></li>
+  <li>메트로놈: 40–240 BPM, 2·3·4·5·6박, 마디 첫 박은 높은 소리</li>
+  <li>자유 녹음: 녹음만, 메트로놈만, 또는 둘 다 동시에</li>
+  <li>에어팟·이어폰으로 메트로놈을 들으면서 휴대폰 마이크로 녹음</li>
+  <li>녹음 듣기·공유·지우기 — 녹음은 이 휴대폰에만 저장</li>
 </ul>
-<p class="muted">Contact: <a href="mailto:nrye4286@gmail.com">nrye4286@gmail.com</a></p>
+
+<h2>자주 묻는 것</h2>
+<dl>
+  <dt>녹음은 어디에 저장되나요?</dt>
+  <dd>이 휴대폰의 앱 안에만 저장되고 어디로도 보내지 않아요. 다른 곳에 두려면 녹음 옆 공유 버튼으로 파일 앱·메시지 등에 보내세요. 앱을 지우면 녹음도 지워져요.</dd>
+  <dt>에어팟을 끼고 녹음하면 어떻게 되나요?</dt>
+  <dd>소리는 에어팟으로 듣고, 녹음은 음질이 좋은 휴대폰 마이크로 해요. 화면 위에 "마이크: 휴대폰 · 소리: 이어폰"처럼 지금 상태가 보여요.</dd>
+  <dt>스피커로 메트로놈을 켜고 녹음하면 딸깍 소리도 녹음되나요?</dt>
+  <dd>네, 스피커로 들으면 딸깍 소리도 함께 녹음돼요 (나중에 박자를 확인하기 좋아요). 이어폰으로 들으면 연주만 녹음돼요.</dd>
+  <dt>화면이 꺼져도 되나요?</dt>
+  <dd>네, 메트로놈과 녹음은 화면이 꺼지거나 다른 앱으로 가도 계속돼요. 전화가 오면 녹음은 그때까지 저장되고 메트로놈은 멈춰요.</dd>
+  <dt>광고는 왜 나오나요?</dt>
+  <dd>앱을 무료로 유지하려고 화면 아래에 Google AdMob 광고가 나와요. 추적을 허용하지 않아도 앱은 똑같이 쓸 수 있어요.</dd>
+</dl>
+
+<h2>문의</h2>
+<p>이메일: <a href="mailto:nrye4286@gmail.com">nrye4286@gmail.com</a> · 개발자: 이지민</p>
+</section>
+
+<hr>
+
+<section id="en" lang="en">
+<header><div class="icon" aria-hidden="true"></div><div><h1>Metronome &amp; Recorder</h1><div class="muted">A simple practice app: record while you hear the metronome (iPhone)</div></div></header>
+
+<h2>Features</h2>
+<ul>
+  <li>Metronome: 40–240 BPM, 2/3/4/5/6 beats per bar, accented downbeat</li>
+  <li>Free recording: record only, metronome only, or both at once</li>
+  <li>Hear the metronome on AirPods or earphones while recording with the phone's microphone</li>
+  <li>Play, share and delete recordings — recordings stay on your phone</li>
+</ul>
+
+<h2>FAQ</h2>
+<dl>
+  <dt>Where are my recordings saved?</dt>
+  <dd>Only inside the app on this phone; they are never uploaded. Use the share button next to a recording to save it to Files or send it. Deleting the app deletes the recordings.</dd>
+  <dt>What happens if I record with AirPods on?</dt>
+  <dd>You hear the sound on your AirPods and the app records with the phone's better microphone. The top of the screen shows the current route, e.g. "Mic: Phone · Sound: Earphones".</dd>
+  <dt>If the metronome plays through the speaker, will the clicks be recorded?</dt>
+  <dd>Yes. Through the speaker, the clicks are recorded too (handy for checking your timing later). With earphones, only your playing is recorded.</dd>
+  <dt>Does it keep running with the screen off?</dt>
+  <dd>Yes. The metronome and recording continue when the screen locks or you switch apps. If a call comes in, the recording so far is saved and the metronome stops.</dd>
+  <dt>Why are there ads?</dt>
+  <dd>Ads from Google AdMob at the bottom of the screen keep the app free. The app works the same whether or not you allow tracking.</dd>
+</dl>
+
+<h2>Contact</h2>
+<p>Email: <a href="mailto:nrye4286@gmail.com">nrye4286@gmail.com</a> · Developer: Jimin Lee</p>
+</section>
 </main>
 </body>
 </html>
