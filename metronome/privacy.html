@@ -22,7 +22,7 @@
 
 <section id="ko">
 <h1>메트로놈 녹음기 개인정보 처리방침</h1>
-<p class="muted">시행일: 2026년 11월 25일 (버전 1.3.1 — 앱에서 광고를 뺌. 이전: 2026년 11월 23일 — Pro 구독 결제 2-2 추가, 2026년 11월 20일 — 운영자 이름을 상호 JL lab 으로 표시, 2026년 11월 16일 — iOS 1.2 설치·이용 측정 추가, 2026년 11월 6일, 2026년 10월 14일)</p>
+<p class="muted">시행일: 2026년 11월 26일 (Google 애널리틱스가 재는 Pro 구독 기록과 1.3.1 의 측정 방식을 적음. 이전: 2026년 11월 25일 — 버전 1.3.1, 앱에서 광고를 뺌, 2026년 11월 23일 — Pro 구독 결제 2-2 추가, 2026년 11월 20일 — 운영자 이름을 상호 JL lab 으로 표시, 2026년 11월 16일 — iOS 1.2 설치·이용 측정 추가, 2026년 11월 6일, 2026년 10월 14일)</p>
 
 <p>JL lab(대표 이지민, 이하 "개발자")은 iOS·Android 앱 "메트로놈 녹음기 (Metronome &amp; Recorder)"(이하 "앱")을 이용하는 분의 개인정보를 「개인정보 보호법」 등 관련 법령에 따라 보호합니다.
 앱은 회원가입·로그인이 없고, 개발자는 앱을 통해 이용자의 개인정보를 직접 수집하거나 서버에 저장하지 않습니다.
@@ -50,9 +50,9 @@ Android 앱은 인터넷으로 보내는 정보가 없습니다. iOS 앱은 유�
 
 <h2>2-1. 설치·이용 측정 (Google 애널리틱스 for Firebase — iOS 앱 1.2 부터)</h2>
 <table>
-  <tr><th>항목</th><td>앱별 식별자(앱 인스턴스 ID — 이름·계정과 연결하지 않음), 광고 식별자(IDFA — 이용자가 추적을 허용한 경우만), 앱 이용 기록(첫 실행·실행·이용 시간·광고 노출), 기기 정보(모델, OS 버전, 언어), IP 주소로 추정한 대략적 위치(국가·지역)</td></tr>
-  <tr><th>목적</th><td>앱 설치 수와 이용 현황 측정, 개발자가 Google Ads 로 내는 앱 광고의 성과 측정</td></tr>
-  <tr><th>방법</th><td>앱에 포함된 Google 애널리틱스 SDK 가 자동 수집. 앱은 광고 동의 상태를 확인하기 전에는 수집하지 않으며, 동의가 필요한 지역(유럽경제지역·영국·스위스)에서는 Google 동의 화면에서 이용자가 고른 대로만 씁니다. 녹음·소리는 보내지 않습니다.</td></tr>
+  <tr><th>항목</th><td>앱별 식별자(앱 인스턴스 ID — 이름·계정과 연결하지 않음), 광고 식별자(IDFA — 1.3 이하에서 이용자가 추적을 허용한 경우만), 앱 이용 기록(첫 실행·실행·이용 시간, 1.3 이하는 광고 노출도), Pro 구독 기록(구독 시작·갱신·해지와 상품·가격 — 기기의 App Store 결제 기록에서 SDK 가 자동으로 읽음, 카드 번호 등 결제 정보는 없음), 기기 정보(모델, OS 버전, 언어), IP 주소로 추정한 대략적 위치(국가·지역)</td></tr>
+  <tr><th>목적</th><td>앱 설치 수와 이용 현황 · Pro 구독 수 측정, 개발자가 Google Ads 로 내는 앱 광고의 성과 측정</td></tr>
+  <tr><th>방법</th><td>앱에 포함된 Google 애널리틱스 SDK 가 자동 수집. 동의가 필요한 지역(유럽경제지역·영국·스위스 — 기기의 지역 설정이나 시간대로 판단)에서는 1.3.1 부터 아예 수집하지 않습니다 (1.3 이하는 Google 동의 화면에서 이용자가 고른 대로만 씀). 녹음·소리는 보내지 않습니다.</td></tr>
   <tr><th>보유 기간</th><td>이벤트 단위 기록은 2개월 (Google 애널리틱스 보관 설정), 그 뒤에는 개인을 알 수 없는 합계만 남음</td></tr>
 </table>
 <p>Google 애널리틱스의 정보 처리: <a href="https://support.google.com/analytics/answer/6004245">Google 애널리틱스의 데이터 보호</a>, <a href="https://policies.google.com/privacy">Google 개인정보처리방침</a></p>
@@ -60,7 +60,7 @@ Android 앱은 인터넷으로 보내는 정보가 없습니다. iOS 앱은 유�
 <h2>2-2. Pro 구독 결제 (App Store · Google Play)</h2>
 <table>
   <tr><th>결제</th><td>Pro 월간 구독은 이용자가 Apple(App Store) 또는 Google(Google Play)과 직접 결제합니다. 카드 번호 등 결제 수단과 청구 정보는 Apple·Google 이 각자의 개인정보처리방침에 따라 처리하며, 개발자는 받지 않습니다.</td></tr>
-  <tr><th>앱이 하는 일</th><td>구독이 유효한지 Apple·Google 에 확인해 Pro 기능을 켜고 광고를 끕니다. 확인 결과는 기기 안에만 저장되며 개발자에게 보내지 않습니다 (개발자는 서버를 두지 않습니다).</td></tr>
+  <tr><th>앱이 하는 일</th><td>구독이 유효한지 Apple·Google 에 확인해 Pro 기능을 켭니다 (1.3 이하는 광고도 끕니다). 확인 결과는 기기 안에만 저장되며 개발자에게 보내지 않습니다 (개발자는 서버를 두지 않습니다). 다만 iOS 앱에서는 Google 애널리틱스가 구독 시작·갱신·해지 기록을 잽니다 (위 2-1).</td></tr>
   <tr><th>개발자가 받는 정보</th><td>Apple·Google 이 판매 보고서·주문 관리 화면으로 주는 판매 기록 (주문 번호, 상품, 금액·세금, 구매 국가·지역 등). 정산·세금 신고·환불·문의 응대에만 씁니다.</td></tr>
   <tr><th>보유 기간</th><td>세법이 정한 기간 (5년)</td></tr>
   <tr><th>해지</th><td>iPhone: 설정 › (내 이름) › 구독 · Android: Play 스토어 › 프로필 › 결제 및 정기 결제 › 정기 결제. 해지해도 결제한 기간이 끝날 때까지 Pro 를 쓸 수 있습니다.</td></tr>
@@ -108,7 +108,7 @@ Android 에서는 화면이 꺼지거나 다른 앱으로 가도 메트로놈·�
 
 <section id="en" lang="en">
 <h1>Metronome &amp; Recorder Privacy Policy</h1>
-<p class="muted">Effective: November 25, 2026 (version 1.3.1 — ads removed from the app. Previous: November 23, 2026 — Pro subscription payments, section 2-2 added; November 20, 2026 — operator shown by business name, JL lab; November 16, 2026 — iOS 1.2 install and usage measurement added; November 6, 2026; October 14, 2026)</p>
+<p class="muted">Effective: November 26, 2026 (Pro subscription events measured by Google Analytics and how version 1.3.1 measures are now described. Previous: November 25, 2026 — version 1.3.1, ads removed from the app; November 23, 2026 — Pro subscription payments, section 2-2 added; November 20, 2026 — operator shown by business name, JL lab; November 16, 2026 — iOS 1.2 install and usage measurement added; November 6, 2026; October 14, 2026)</p>
 
 <p>JL lab (owner: Jimin Lee; "the developer") provides the iOS and Android app "Metronome &amp; Recorder" ("the app"). The app has no account or login, and the developer does not collect your personal data through the app or store it on any server.
 Up to version 1.3, to keep the app free, it showed ads from Google AdMob (no ads with Pro), and the iOS app uses Google Analytics to measure installs and the performance of the developer's own app ads. Google processes the data described below. Pro subscription payments are handled by Apple or Google (section 2-2).</p>
@@ -129,13 +129,13 @@ See <a href="https://policies.google.com/technologies/partner-sites">How Google 
 <p>The developer uses Google's ad SDK only as needed to show ads. Google protects this data under the Google Privacy Policy and applicable law, providing the same or equal protection of user data as stated in this policy. The developer does not sell your data.</p>
 
 <h2>2-1. Install and usage measurement (Google Analytics for Firebase — iOS app 1.2 and later)</h2>
-<p>The Google Analytics SDK in the iOS app collects: an app-specific identifier (app instance ID — not linked to your name or any account), the advertising identifier (IDFA, only if you allow tracking), app usage events (first open, app opens, engagement time, ad impressions), device information (model, OS version, language) and approximate location (country/region) estimated from your IP address. The developer uses this to count installs and usage and to measure the performance of the developer's own app ads on Google Ads.
-The app collects nothing until it knows your consent status, and where consent is required (the EEA, the UK and Switzerland) it follows your choice in Google's consent form. Recordings and audio are never sent. Event-level data is kept for 2 months (Google Analytics retention setting); after that only aggregated, non-identifying totals remain.
+<p>The Google Analytics SDK in the iOS app collects: an app-specific identifier (app instance ID — not linked to your name or any account), the advertising identifier (IDFA, only in version 1.3 or earlier and only if you allowed tracking), app usage events (first open, app opens, engagement time, and in version 1.3 or earlier ad impressions), Pro subscription events (start, renewal and cancellation with product and price, read automatically by the SDK from the App Store purchase records on your device — no card numbers or other payment details), device information (model, OS version, language) and approximate location (country/region) estimated from your IP address. The developer uses this to count installs, usage and Pro subscriptions and to measure the performance of the developer's own app ads on Google Ads.
+Where consent is required (the EEA, the UK and Switzerland — judged from your device's region setting or time zone), version 1.3.1 and later collect nothing at all; version 1.3 and earlier followed your choice in Google's consent form. Recordings and audio are never sent. Event-level data is kept for 2 months (Google Analytics retention setting); after that only aggregated, non-identifying totals remain.
 See <a href="https://support.google.com/analytics/answer/6004245">Safeguarding your data (Google Analytics)</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
 
 <h2>2-2. Pro subscription payments (App Store, Google Play)</h2>
 <p>You pay for the Pro monthly subscription directly to Apple (App Store) or Google (Google Play). Your payment method and billing details are processed by Apple or Google under their own privacy policies; the developer never receives them.
-The app checks with Apple or Google whether your subscription is active, to turn on Pro features and turn off ads. The result is stored only on your device and is never sent to the developer (the developer runs no server).
+The app checks with Apple or Google whether your subscription is active, to turn on Pro features (in version 1.3 or earlier, also to turn off ads). The result is stored only on your device and is never sent to the developer (the developer runs no server). In the iOS app, Google Analytics does measure subscription start, renewal and cancellation events (section 2-1).
 The developer receives sales records from Apple and Google (such as order number, product, price and tax, and country or region) and uses them only for accounting, tax filing, refunds and support. They are kept for the period required by tax law (5 years).
 Cancel any time: on iPhone in Settings › [your name] › Subscriptions; on Android in the Play Store › profile › Payments &amp; subscriptions › Subscriptions. Pro stays on until the end of the period you paid for.
 See the <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a>, the <a href="https://policies.google.com/privacy">Google Privacy Policy</a> and the <a href="https://payments.google.com/payments/apis-secure/get_legal_document?ldo=0&amp;ldt=privacynotice">Google Payments Privacy Notice</a>.</p>
